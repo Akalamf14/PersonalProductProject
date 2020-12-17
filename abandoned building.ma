@@ -1,6 +1,6 @@
 //Maya ASCII 2018 scene
 //Name: abandoned building.ma
-//Last modified: Mon, Dec 14, 2020 11:47:04 PM
+//Last modified: Wed, Dec 16, 2020 03:37:34 PM
 //Codeset: 1252
 requires maya "2018";
 currentUnit -l centimeter -a degree -t film;
@@ -13,13 +13,13 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "BC82518A-4277-4985-321A-C18065676019";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -6.1559242557452283 37.114714291566656 46.414415490864833 ;
-	setAttr ".r" -type "double3" -22.538352756457357 -1063.3999999997341 -8.2971923186800482e-16 ;
+	setAttr ".t" -type "double3" 86.138565174156554 50.620099068880052 128.44714350253423 ;
+	setAttr ".r" -type "double3" -14.138352756372855 -1040.6000000001097 -1.0289945948198853e-15 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "DE9DD5AB-4FE7-FBB4-6B9D-B4B4B1E84ABC";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 68.778653864348996;
+	setAttr ".coi" 174.47126104917862;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
